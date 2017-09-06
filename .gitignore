@@ -9,3 +9,7 @@ src/.gitignore
 .tern-project
 
 .classpath
+
+osp-platform/target/
+osp-kernel/target/
+osp-common/target/

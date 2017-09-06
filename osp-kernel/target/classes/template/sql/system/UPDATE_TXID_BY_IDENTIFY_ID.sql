@@ -1,7 +1,0 @@
-UPDATE
-    SYS_TXID_MAP
-SET
-    TXID = :txId,
-    UPDATE_DATE = SYSDATE
-WHERE
-    OSP_KEY = :ospKey

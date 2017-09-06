@@ -1,9 +1,0 @@
-SELECT
-        SKILL_ID    AS SKILL_ID,
-        EMPNO       AS EMPNO,
-        SKILL_NAME  AS SKILL_NAME,
-        EMPNAME     AS EMPNAME
-FROM
-        SYS_SKILL_MEMBER_REF
-WHERE
-        $P{CONDITION}

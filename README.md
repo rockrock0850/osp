@@ -1,1 +1,1 @@
-# osp-platform
+# osp

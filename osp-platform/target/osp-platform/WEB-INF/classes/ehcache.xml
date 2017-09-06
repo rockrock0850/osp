@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="ehcache.xsd" updateCheck="true"
+monitoring="on" dynamicConfig="true" name="FETNSPCache">
+	<cache name="crmdefaultcache" eternal="false" maxEntriesLocalHeap="200000" timeToIdleSeconds="7200" cacheLoaderTimeoutMillis="3000">
+		<persistence strategy="distributed"/>
+		<terracotta clustered="true" consistency="eventual" synchronousWrites="false">
+			<nonstop immediateTimeout="true">
+				<timeoutBehavior type="exception"/>
+			</nonstop>
+		</terracotta>
+		<searchable />
+	</cache>		
+
+	<cache name="ssodefaultcache" eternal="false" maxEntriesLocalHeap="200000" timeToIdleSeconds="28800" cacheLoaderTimeoutMillis="3000">
+		<persistence strategy="distributed"/>
+		<terracotta clustered="true" consistency="eventual" synchronousWrites="false">
+			<nonstop immediateTimeout="true">
+				<timeoutBehavior type="exception"/>
+			</nonstop>
+		</terracotta>
+		<searchable />
+	</cache>	
+
+	<cache name="NSP_CACHE" eternal="false" maxBytesLocalHeap="10M" maxBytesLocalOffHeap="20M" timeToLiveSeconds="43200" timeToIdleSeconds="28800" cacheLoaderTimeoutMillis="3000">
+		<persistence strategy="distributed"/>
+		<terracotta clustered="true" consistency="eventual" synchronousWrites="false">
+			<nonstop immediateTimeout="true">
+				<timeoutBehavior type="exception"/>
+			</nonstop>
+		</terracotta>
+		<searchable />
+	</cache>		
+
+	<cache name="PROMOTE_CACHE" eternal="false" maxBytesLocalHeap="10M" maxBytesLocalOffHeap="20M" timeToLiveSeconds="86400" timeToIdleSeconds="72000" cacheLoaderTimeoutMillis="3000">
+		<persistence strategy="distributed"/>
+		<terracotta clustered="true" consistency="eventual" synchronousWrites="false">
+			<nonstop immediateTimeout="true">
+				<timeoutBehavior type="exception"/>
+			</nonstop>
+		</terracotta>
+		<searchable />
+	</cache>		
+
+	<cache name="BIGTABLAE_CACHE" eternal="false" maxBytesLocalHeap="250M" maxBytesLocalOffHeap="500M" cacheLoaderTimeoutMillis="3000">
+		<persistence strategy="distributed"/>
+		<terracotta clustered="true" consistency="eventual" synchronousWrites="false">
+			<nonstop immediateTimeout="true">
+				<timeoutBehavior type="exception"/>
+			</nonstop>
+		</terracotta>
+	</cache>		
+
+	<cache name="AGENT_INFO_CACHE" eternal="false" maxBytesLocalHeap="10M" maxBytesLocalOffHeap="20M" timeToLiveSeconds="86400" timeToIdleSeconds="72000" cacheLoaderTimeoutMillis="3000">
+		<persistence strategy="distributed"/>
+		<terracotta clustered="true" consistency="eventual" synchronousWrites="false">
+			<nonstop immediateTimeout="true">
+				<timeoutBehavior type="exception"/>
+			</nonstop>
+		</terracotta>
+		<searchable />
+	</cache>		
+
+	<cache name="SETTING_CACHE" eternal="false" maxBytesLocalHeap="10M" maxBytesLocalOffHeap="20M" cacheLoaderTimeoutMillis="3000">
+		<persistence strategy="distributed"/>
+		<terracotta clustered="true" consistency="eventual" synchronousWrites="false">
+			<nonstop immediateTimeout="true">
+				<timeoutBehavior type="exception"/>
+			</nonstop>
+		</terracotta>
+		<searchable />
+	</cache>
+	
+	<!-- 原來的 -->
+	<!-- <terracottaConfig url="10.64.33.97:19610,10.64.33.106:19610,10.64.33.97:19640,10.64.33.106:19640" rejoin="true"/> -->
+	<!-- 22SIT用 -->
+	<terracottaConfig url="10.64.33.97:9710,10.64.33.106:9740,10.64.33.97:9740,10.64.33.106:9710" rejoin="true"/>
+
+</ehcache>

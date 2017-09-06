@@ -1,0 +1,5 @@
+DELETE
+FROM
+        SYS_ROLE_MENU_REF
+WHERE
+        ROLE_ID = :ROLE_ID

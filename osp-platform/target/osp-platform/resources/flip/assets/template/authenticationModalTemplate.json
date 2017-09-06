@@ -1,0 +1,17 @@
+/*jshint multistr: true */
+jsonpcallback({content:
+'<div class="modal-dialog">\
+    <div class="modal-content">\
+        <div class="modal-header">\
+            <h4 class="modal-title" id="authenticationModalTitle">提醒您，系統即將登出</h4>\
+        </div>\
+        <div class="modal-body">\
+            提醒您，您最後一次使用時間為：<strong ng-bind="timerInfo.lastUseTime | date:\'yyyy/MM/dd HH:mm:ss\'" />，系統即將於 <strong ng-bind="timerInfo.sleepTime | date:\'mm分ss秒\'" /> 後自動登出\
+        </div>\
+        <div class="modal-footer">\
+            <a class="btn btn-primary" ng-click="timerInfo.ok()" data-dismiss="modal">繼續使用</a>\
+            <a class="btn btn-danger" ng-click="timerInfo.cancel()" data-dismiss="modal">離開系統</a>\
+        </div>\
+    </div>\
+</div>'
+});

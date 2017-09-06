@@ -1,0 +1,8 @@
+UPDATE
+    ORDER_MAIN_OSP
+SET
+    ORDER_STATUS = :status,
+    UPDATE_DATE = SYSDATE,
+    UPDATE_USER = 'OSP-Kernel'
+WHERE
+    ORDER_M_ID = :orderMId

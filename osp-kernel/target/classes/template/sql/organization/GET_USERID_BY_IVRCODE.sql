@@ -1,0 +1,18 @@
+-- 
+-- SQL File : resources/template/sql/organization/GET_USERID_BY_IVRCODE.sql
+-- 說明：根據 IVR Code 取得業務人員 ID
+-- 
+SELECT
+    C.USERID
+FROM
+    VIEW_SALES_ORG A
+JOIN
+    VIEW_SALES_ORG B
+ON
+    A.PARENTSALESCD = B.SALESID
+JOIN
+    VIEW_SALESORG_INTERNAL_ID C
+ON
+    B.PARENTSALESCD = C.SALESID
+WHERE
+    A.SALESCD = :ivrCode

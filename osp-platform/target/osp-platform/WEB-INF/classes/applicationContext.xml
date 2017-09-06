@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx" 
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-4.0.xsd
+           http://www.springframework.org/schema/tx
+           http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
+
+	<!-- init 属性配置 -->
+	<context:property-placeholder location="classpath*:platform.properties" />
+
+	<!-- 使用 spring annotation -->
+	<context:component-scan base-package="com.fet.crm.osp.platform" />
+	<context:component-scan base-package="com.fet.crm.osp.common" />
+	
+	<!-- JDBC and persistence -->
+	<import resource="spring-config/core/applicationContext-datasource-config.xml" />
+	<import resource="spring-config/core/applicationContext-jdbc-config.xml" />
+	<import resource="spring-config/core/applicationContext-persistence-config.xml" />
+	
+	<!-- WEB -->
+	<import resource="spring-config/web/applicationContext-tiles-config.xml" />
+	<import resource="spring-config/web/applicationContext-interceptor-config.xml" />
+	<import resource="spring-config/web/applicationContext-upload-config.xml" />
+	
+	<!-- AOP -->
+	<import resource="spring-config/aop/applicationContext-aop-config.xml" />
+	
+	<!-- Thread -->
+	<import resource="spring-config/core/applicationContext-threadpool-config.xml" />
+	
+	<!-- Cacke 
+	<import resource="spring-config/cache/applicationContext-terracotta-config.xml" />
+	-->
+
+</beans>

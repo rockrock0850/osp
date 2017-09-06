@@ -1,0 +1,61 @@
+2017-03-30 02:38:48.994 ERROR [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [logMessge] : error
+java.lang.NullPointerException
+	at java.math.BigDecimal.<init>(BigDecimal.java:739) ~[?:1.7.0_79]
+	at com.fet.crm.osp.platform.core.service.orderinfo.impl.BuzContent0025ServiceImpl.createContent(BuzContent0025ServiceImpl.java:57) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.BuzContentFacade.createContent(BuzContentFacade.java:55) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.BuzContentFacade$$FastClassBySpringCGLIB$$ef1945e6.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:62) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.BuzContentFacade$$EnhancerBySpringCGLIB$$10aaeabc.createContent(<generated>) [classes/:?]
+	at com.fet.crm.osp.platform.core.facade.BuzContentFacadeTest.testCreateContent(BuzContentFacadeTest.java:65) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) [junit-4.11.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.11.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) [junit-4.11.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.11.jar:?]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:?]
+2017-03-30 02:38:49.006 ERROR [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [logMessge] :  class name = com.fet.crm.osp.platform.core.facade.orderinfo.BuzContentFacade ; methodNm = createContent
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"2fe129d0-6172-4dae-b897-676f99ac5612","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-03-30 02:44:36.31","lpr":{"serverprinfo":{"serverip":"192.168.1.101","servernm":"Adam","freemem":132}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"2fe129d0-6172-4dae-b897-676f99ac5612","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-03-30 02:44:36.260","lpr":{"serverprinfo":{"serverip":"192.168.1.101","servernm":"Adam","freemem":106}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"DELETE_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"2fe129d0-6172-4dae-b897-676f99ac5612","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-03-30 02:44:36.279","lpr":{"serverprinfo":{"serverip":"192.168.1.101","servernm":"Adam","freemem":106}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"DELETE_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"2fe129d0-6172-4dae-b897-676f99ac5612","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-03-30 02:44:36.605","lpr":{"serverprinfo":{"serverip":"192.168.1.101","servernm":"Adam","freemem":106}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"2fe129d0-6172-4dae-b897-676f99ac5612","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-03-30 02:44:36.648","lpr":{"serverprinfo":{"serverip":"192.168.1.101","servernm":"Adam","freemem":101}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"2fe129d0-6172-4dae-b897-676f99ac5612","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-03-30 02:44:36.684","lpr":{"serverprinfo":{"serverip":"192.168.1.101","servernm":"Adam","freemem":101}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"2fe129d0-6172-4dae-b897-676f99ac5612","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-03-30 02:44:36.727","lpr":{"serverprinfo":{"serverip":"192.168.1.101","servernm":"Adam","freemem":101}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"2fe129d0-6172-4dae-b897-676f99ac5612","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-03-30 02:44:36.769","lpr":{"serverprinfo":{"serverip":"192.168.1.101","servernm":"Adam","freemem":101}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"2fe129d0-6172-4dae-b897-676f99ac5612","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-03-30 02:44:36.801","lpr":{"serverprinfo":{"serverip":"192.168.1.101","servernm":"Adam","freemem":95}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"2fe129d0-6172-4dae-b897-676f99ac5612","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-03-30 02:44:36.818","lpr":{"serverprinfo":{"serverip":"192.168.1.101","servernm":"Adam","freemem":95}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"2fe129d0-6172-4dae-b897-676f99ac5612","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-03-30 02:44:36.836","lpr":{"serverprinfo":{"serverip":"192.168.1.101","servernm":"Adam","freemem":95}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"2fe129d0-6172-4dae-b897-676f99ac5612","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-03-30 02:44:36.854","lpr":{"serverprinfo":{"serverip":"192.168.1.101","servernm":"Adam","freemem":95}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"2fe129d0-6172-4dae-b897-676f99ac5612","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-03-30 02:44:36.873","lpr":{"serverprinfo":{"serverip":"192.168.1.101","servernm":"Adam","freemem":95}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}

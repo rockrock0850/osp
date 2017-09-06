@@ -1,0 +1,62 @@
+HLR SUBSCRIBER DATA
+SUBSCRIBER  IDENTITY
+MSISDN  IMSI    STATE   AUTHD
+886922258738    466011802070461 CONNECTED
+AVAILABLE
+NAM IMEISV
+0   3544410646971720
+PERMANENT   SUBSCRIBER  DATA
+SUD
+BS3F-1  BS3G-1  CAT-10  CAW-1
+CLIP-1  CLIR-1  DBSG-1  HOLD-1
+MPTY-1  NAM-0   OBOPRE-1    OBRF-2
+OFA-1OICK-490   PWD-0000    RSA-12
+SCHAR-10-800    SOCLIP-0    SOCLIR-2TICK-491
+TS11-1  TS21-1  TS22-1  TSMO-0
+AMSISDN BS  BC
+NONE
+SUPPLEMENTARY   SERVICE DATA
+BSG
+TS10
+SS  STATUS  FNUM    TIME
+CAW ACTIVE-OP       0
+BSG
+BS30
+SS  STATUS  FNUM    TIME
+CAW ACTIVE-OP       0
+LOCATION    DATA
+CS  LOCATION    DATA
+VLR ADDRESS MSCNUMBER   MSRN    LMSID   MSCAreaRestricted   MSPurgedInVlr   ServicesRestrictedInVlr
+4-886936000245  4-886936000245          false   false       
+PS  LOCATION    DATA
+SGSNNUMBER  MSPurgedInSgsn  ServicesRestrictedInSgsn
+UNKNOWN false   PDP CONTEXT DATA
+APNID   PDPADD  EQOSID  VPAA    PDPCH   PDPTY   EPDPIND EPDPADD PDPID
+1638        501 false   IPV4    false   1   
+1       501 false   IPV4    false   2   
+86      501 false   IPV4    false   3   
+END
+EPS SUBSCRIBER DATA
+MSISDN  886922258738
+EpsProfileId    1
+EpsOdb  NONE
+EpsRoamingAllowed   false
+EpsIndividualDefaultContextId   5011638
+EpsIndividualContextId  5011638
+EpsIndividualContextId  5010001
+EpsIndividualSubscribedChargingCharacteristic   12810
+EpsIndividualAmbrMaximalUplinkIpFlow    0
+EpsIndividualAmbrMaximalDwonlinkIpFlow  0
+EpsIndividualRatFrequencyPriorityId 0
+MmeAddress  pc53s.epc.mnc001.mcc466.3gppnetwork.org
+EpsLocationState    LOCATED
+EpsRoamingRestriction   true
+EpsExtendedAccessRestriction    0
+EpsAaaRealm epc.mnc001.mcc466.3gppnetwork.org
+EpsDynamicPdnInformation    fetnet01$topon.pgws5.pc54g.north.net.epc.mnc001.mcc466.3gppnetwork.org$epc.mnc001.mcc466.3gppnetwork.org$$$
+EpsUeSrVccCap   1
+EpsTenantId 3
+EpsMultimediaPriorityService    0
+EpsZoneCodeSetId    0
+EpsAutomaticProvisioned false
+EpsImeiSv   3544410646971720

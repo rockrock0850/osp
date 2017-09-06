@@ -1,0 +1,18 @@
+INSERT INTO BUZ_V_POS_COMPARE_RESULT VALUES
+(
+        :COMPARE_ID,
+        :V_POS_AUTH_CODE,
+        :V_POS_MONEY,
+        :V_POS_NUMBER_PERIODS,
+        :V_POS_REMARK,
+        :AIMS_ORDER_ID,
+        :AIMS_SHIPPING_ID,
+        :AIMS_MSISDN,
+        :AIMS_ACTUAL_PAYMENT,
+        :COMPARE_RESULT,
+        :CREATE_DATE,
+        :CREATE_USER,
+        :UPDATE_DATE,
+       :UPDATE_USER,
+        :AIMS_AUTH_CODE
+)

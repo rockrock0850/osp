@@ -1,0 +1,4 @@
+2017-05-17 14:20:26.976 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.systeminfo.BuzFlowManageFacade.getServiceBuzRecordContent
+2017-05-17 14:20:28.157 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  OUTPUT com.fet.crm.osp.platform.core.facade.systeminfo.BuzFlowManageFacade.getServiceBuzRecordContent
+2017-05-17 14:21:06.560 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.systeminfo.BuzFlowManageFacade.getServiceBuzRecordContent
+2017-05-17 14:26:59.001 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  OUTPUT com.fet.crm.osp.platform.core.facade.systeminfo.BuzFlowManageFacade.getServiceBuzRecordContent

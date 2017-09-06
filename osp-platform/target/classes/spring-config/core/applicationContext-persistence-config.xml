@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc" 
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                           http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+                           http://www.springframework.org/schema/context 
+                           http://www.springframework.org/schema/context/spring-context-4.0.xsd
+                           http://www.springframework.org/schema/jdbc 
+                           http://www.springframework.org/schema/jdbc/spring-jdbc.xsd
+                           http://www.springframework.org/schema/data/jpa
+                           http://www.springframework.org/schema/data/jpa/spring-jpa-1.0.xsd
+                           http://www.springframework.org/schema/tx
+                           http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
+
+	<!--  
+		更多參考資料
+		1. http://www.blogjava.net/stone2083/archive/2011/08/25/357262.html
+		2. http://www.ibm.com/developerworks/cn/opensource/os-cn-spring-jpa/
+		3. http://docs.spring.io/spring-data/jpa/docs/1.4.2.RELEASE/reference/html/
+	
+	-->
+	
+	<context:component-scan base-package="com.fet.crm.osp.platform.core.db.repository" />
+	
+	<context:annotation-config />
+	
+	<tx:annotation-driven transaction-manager="ospTxManager" />
+
+	<!-- TransactionManager -->
+	<bean id="ospTxManager" class="org.springframework.orm.jpa.JpaTransactionManager"
+		p:entityManagerFactory-ref="ospEntityManagerFactory" />
+
+	<!-- EntityManagerFactory -->
+	<bean id="ospEntityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+		<property name="dataSource" ref="ospDataSource" />
+		<property name="packagesToScan" value="com.fet.crm.osp.platform.core.db.model" />
+		<property name="jpaVendorAdapter">
+			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+				<property name="showSql" value="${entitymanager.config.showSql}" />
+				<property name="database" value="${entitymanager.config.database}" />
+				<property name="generateDdl" value="${entitymanager.config.generateDdl}" />
+			</bean>
+		</property>
+	</bean>
+
+	<!-- 核心代碼 : Configures Spring Data JPA and sets the base package of DAOs. 	-->
+	<jpa:repositories base-package="com.fet.crm.osp.platform.core.db.repository" 
+				      entity-manager-factory-ref="ospEntityManagerFactory" 
+				      transaction-manager-ref="ospTxManager"
+				      />
+
+</beans>

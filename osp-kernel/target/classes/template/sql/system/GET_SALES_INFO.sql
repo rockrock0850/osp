@@ -1,0 +1,7 @@
+SELECT
+    EMPNO,
+    EMAIL
+FROM
+    HRM_MEMBER
+WHERE
+    EMPNO = :empNo

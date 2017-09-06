@@ -1,0 +1,20 @@
+com.fet.crm.osp.kernel.mware.server.wrapper.restful
+	├ OSPPoolMainRESTFulWS: 面向OSP工單[ORDER_MAIN_OSP]維護 RESTful Web Services控制器
+	
+	├ OSPToolMainRESTFulWS: 面向OSP相關服務 RESTful Web Services控制器
+
+--------------------------------------------------------------------------------------------------
+com.fet.crm.osp.kernel.mware.server.wrapper.soap
+	├ AbstractBasicSOAPWS: SOAP WS基本共同服務類
+	
+	├ OSPPoolMainSOAPWS: 面向OSP工單[ORDER_MAIN_OSP]維護 Webservice
+		├ updateOrderStatus2OSPFromSurrounding(BasicRecordVO, String)
+	
+	├ OSPToolMainSOAPWS: 面向OSP相關服務 Webservice
+		├ updateTxIdByIdentifyId(BasicRecordVO, String, String)
+	
+	├ TicketPoolMainSOAPWS: 面向工單池[ORDER_MAIN_METADATA]維護 主要 Webservice
+		├ loadOrder2TicketPoolFromMiddle(BasicRecordVO, OrderMainMetadataVO)
+		├ queryOrderFromTicketPool(BasicRecordVO, String, String)
+		├ updateOrderStatus2TicketPool(BasicRecordVO, String, String, String)
+		├ updateOrderInfo2TicketPoolFromAIMS(BasicRecordVO, String, String, String)

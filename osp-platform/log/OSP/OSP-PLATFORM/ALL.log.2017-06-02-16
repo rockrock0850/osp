@@ -1,0 +1,369 @@
+2017-06-02 16:20:57.367 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.batchCreateOrder
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"77421981-00b4-42a7-9fb8-a2b9ef550023","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:20:58.598","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":59}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"77421981-00b4-42a7-9fb8-a2b9ef550023","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:20:59.42","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":161}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"77421981-00b4-42a7-9fb8-a2b9ef550023","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:20:59.123","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":161}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"77421981-00b4-42a7-9fb8-a2b9ef550023","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:20:59.202","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":161}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"77421981-00b4-42a7-9fb8-a2b9ef550023","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:20:59.284","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":158}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"77421981-00b4-42a7-9fb8-a2b9ef550023","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:20:59.362","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":158}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"77421981-00b4-42a7-9fb8-a2b9ef550023","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:20:59.443","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":158}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"77421981-00b4-42a7-9fb8-a2b9ef550023","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:20:59.522","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":155}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"77421981-00b4-42a7-9fb8-a2b9ef550023","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:20:59.603","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":155}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"77421981-00b4-42a7-9fb8-a2b9ef550023","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:20:59.683","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":155}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+2017-06-02 16:20:59.699 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  OUTPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.batchCreateOrder
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"77421981-00b4-42a7-9fb8-a2b9ef550023","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:20:59.808","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":152}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"77421981-00b4-42a7-9fb8-a2b9ef550023","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:20:59.825","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":149}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"77421981-00b4-42a7-9fb8-a2b9ef550023","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:20:59.841","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":149}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"77421981-00b4-42a7-9fb8-a2b9ef550023","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:20:59.856","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":149}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"77421981-00b4-42a7-9fb8-a2b9ef550023","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:20:59.878","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":146}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"77421981-00b4-42a7-9fb8-a2b9ef550023","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:20:59.900","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":146}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"77421981-00b4-42a7-9fb8-a2b9ef550023","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:20:59.956","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":143}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"77421981-00b4-42a7-9fb8-a2b9ef550023","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:20:59.973","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":143}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"77421981-00b4-42a7-9fb8-a2b9ef550023","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:20:59.989","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":140}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"77421981-00b4-42a7-9fb8-a2b9ef550023","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:21:00.5","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":140}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+2017-06-02 16:21:50.359 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.getAssignOrderInfo
+2017-06-02 16:21:50.431 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [getCompleteSQL] :  completeSQL = SELECT
+    T1.ORDER_M_ID      AS ORDER_M_ID,
+    T1.ORDER_TYPE_NAME AS ORDER_TYPE_NAME,
+    (
+        SELECT
+            OPTIONS_TEXT
+        FROM
+            SYS_OPTIONS_REFERENCE
+        WHERE
+            OPTIONS_VALUE = T1.SOURCE_SYS_ID )  AS SOURCE_SYS_ID,
+    T1.CRITICAL_FLAG                            AS CRITICAL_FLAG,
+    NVL(T1.SOURCE_PROD_TYPE_NAME, ' ')          AS SOURCE_PROD_TYPE_NAME,
+    NVL(T3.OPTIONS_TEXT, ' ')                   AS OPERATE_TYPE,
+    NVL(T1.MSISDN, ' ')                         AS MSISDN,
+    T1.CUST_NAME                                AS CUST_NAME,
+    T1.SOURCE_ORDER_ID                          AS SOURCE_ORDER_ID,
+    NVL(T1.PARTENT_ORDER_ID, ' ')               AS PARTENT_ORDER_ID,
+    T1.COUNTS                                   AS COUNTS,
+    TO_CHAR(T1.CUST_SPECIFY_DATE, 'YYYY-MM-DD') AS CUST_SPECIFY_DATE,
+    NVL(T2.STATUS_NAME, ' ')                    AS ORDER_STATUS,
+    NVL(T1.PROCESS_USER_NAME, ' ')              AS PROCESS_USER_NAME,
+    T1.EXPECT_PROCESS_TIME                      AS EXPECT_PROCESS_TIME,
+    T1.EXPECT_COMPLETE_TIME                     AS EXPECT_COMPLETE_TIME,
+    T1.SOURCE_CREATE_TIME                       AS SOURCE_CREATE_TIME,
+    NVL(T1.PROCESS_RESULT, ' ')                 AS PROCESS_RESULT,
+    NVL(T1.PROCESS_REASON, ' ')                 AS PROCESS_REASON,
+    T4.LIGHT_COLOR                              AS LIGHT_COLOR,
+    CASE
+        WHEN (T1.EXPECT_COMPLETE_TIME - T5.OVERTIME / (24 * 60)) - SYSDATE < 0
+        THEN 'Y'
+        ELSE 'N'
+    END AS OVERDUE_FLAG
+FROM
+    ORDER_MAIN_OSP T1
+LEFT JOIN
+    SYS_ORDER_STATUS_SETTING T2
+ON
+    T1.ORDER_STATUS = T2.STATUS_ID
+LEFT JOIN
+    SYS_OPTIONS_REFERENCE T3
+ON
+    T1.OPERATE_TYPE = T3.OPTIONS_VALUE
+LEFT JOIN
+    SYS_ORDER_STATUS_SETTING T4
+ON
+    T1.ORDER_STATUS=T4.STATUS_ID
+LEFT JOIN
+    SYS_ORDER_TYPE_SETTING T5
+ON
+    T1.ORDER_TYPE_ID = T5.ORDER_TYPE_ID
+WHERE
+    ( 1 = 1 ) AND  SOURCE_CREATE_TIME > TO_DATE('2017-02-16 00:00:00', 'yyyy/MM/dd hh24:mi:ss') AND  ORDER_STATUS NOT IN ('070', '080')
+2017-06-02 16:21:50.528 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [getParams] :  SQL params = {}
+2017-06-02 16:22:01.654 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  OUTPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.getAssignOrderInfo
+2017-06-02 16:22:05.045 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.updateOrderStatus
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:06.750","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":239}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:07.720","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":208}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:07.778","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":208}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+2017-06-02 16:22:07.921 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  OUTPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.updateOrderStatus
+2017-06-02 16:22:07.954 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.createOrder
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:08.587","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":204}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+2017-06-02 16:22:08.612 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  OUTPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.createOrder
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:08.622","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":204}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+2017-06-02 16:22:08.870 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.excuteOrderAssign
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:09.522","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":199}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:09.601","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":199}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+2017-06-02 16:22:09.623 ERROR [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [logMessge] : error
+com.fet.crm.osp.platform.core.excpetion.system.CoreException: Target must not be null
+	at com.fet.crm.osp.platform.core.excpetion.PlatformExceptionFactory.getException(PlatformExceptionFactory.java:41) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.aspect.CoreThrowsAspect.around(CoreThrowsAspect.java:80) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99) [spring-tx-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282) [spring-tx-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96) [spring-tx-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade$$EnhancerBySpringCGLIB$$b356e97e.excuteOrderAssign(<generated>) [classes/:?]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacadeTest.testExcuteOrderAssign(OrderManageFacadeTest.java:350) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) [junit-4.11.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.11.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) [junit-4.11.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.11.jar:?]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:?]
+Caused by: java.lang.IllegalArgumentException: Target must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:115) ~[spring-core-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.BeanUtils.copyProperties(BeanUtils.java:592) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.beans.BeanUtils.copyProperties(BeanUtils.java:573) ~[spring-beans-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at com.fet.crm.osp.platform.core.db.warehouse.OrderMainOspWarehouse.update(OrderMainOspWarehouse.java:86) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.db.warehouse.OrderMainOspWarehouse.updateInBatch(OrderMainOspWarehouse.java:111) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.service.orderinfo.impl.OrderManageServiceImpl.excuteOrderAssign(OrderManageServiceImpl.java:573) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.excuteOrderAssign(OrderManageFacade.java:275) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade$$FastClassBySpringCGLIB$$719c5953.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:85) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at com.fet.crm.osp.platform.core.aspect.CoreThrowsAspect.around(CoreThrowsAspect.java:64) [classes/:?]
+	... 48 more
+2017-06-02 16:22:09.670 ERROR [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [logMessge] :  class name = com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade ; methodNm = excuteOrderAssign
+2017-06-02 16:22:09.761 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.getOrderMessage
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:10.320","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":199}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+2017-06-02 16:22:10.348 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  OUTPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.getOrderMessage
+2017-06-02 16:22:10.443 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.setNotifyOtherSales
+2017-06-02 16:22:10.443 ERROR [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [logMessge] : error
+com.fet.crm.osp.platform.core.excpetion.system.CoreException
+	at com.fet.crm.osp.platform.core.excpetion.PlatformExceptionFactory.getException(PlatformExceptionFactory.java:41) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.aspect.CoreThrowsAspect.around(CoreThrowsAspect.java:80) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade$$EnhancerBySpringCGLIB$$b356e97e.setNotifyOtherSales(<generated>) [classes/:?]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacadeTest.testSetNotifyOtherSales(OrderManageFacadeTest.java:515) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) [junit-4.11.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.11.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) [junit-4.11.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.11.jar:?]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:?]
+Caused by: java.lang.NullPointerException
+	at com.fet.crm.osp.platform.core.service.orderinfo.impl.OrderManageServiceImpl.getMsisdn(OrderManageServiceImpl.java:1116) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.service.orderinfo.impl.OrderManageServiceImpl.createNotifyOtherSales(OrderManageServiceImpl.java:1065) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.setNotifyOtherSales(OrderManageFacade.java:223) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade$$FastClassBySpringCGLIB$$719c5953.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:85) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at com.fet.crm.osp.platform.core.aspect.CoreThrowsAspect.around(CoreThrowsAspect.java:64) [classes/:?]
+	... 44 more
+2017-06-02 16:22:10.444 ERROR [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [logMessge] :  class name = com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade ; methodNm = setNotifyOtherSales
+2017-06-02 16:22:10.446 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.createRecordContent
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:11.120","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":194}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:11.201","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":194}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:11.281","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":194}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+2017-06-02 16:22:11.301 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  OUTPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.createRecordContent
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:11.304","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":189}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:11.322","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":189}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+2017-06-02 16:22:11.483 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.getDispatchNotify
+2017-06-02 16:22:12.114 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  OUTPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.getDispatchNotify
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:12.91","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":189}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+2017-06-02 16:22:12.202 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.updateOrderMainInfo
+2017-06-02 16:22:12.752 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  OUTPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.updateOrderMainInfo
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:12.733","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":189}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:12.757","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":184}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"MODIFY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+2017-06-02 16:22:12.963 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.updateOrderCategory
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:13.573","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":184}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:13.921","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":184}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:14.4","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":179}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:14.81","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":179}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:14.281","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":179}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+2017-06-02 16:22:14.400 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  OUTPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.updateOrderCategory
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:14.406","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":179}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:14.419","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":179}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"a0149e17-14d4-4cb4-995e-98a387acb2b6","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:22:14.434","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":174}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+2017-06-02 16:22:14.603 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.getOrderSimpleInfoByUserId
+2017-06-02 16:22:15.280 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  OUTPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.getOrderSimpleInfoByUserId
+2017-06-02 16:22:15.363 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.getPersonalTodoOrderInfo
+2017-06-02 16:22:15.420 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [getCompleteSQL] :  completeSQL = SELECT
+    T1.ORDER_M_ID                                                 AS ORDER_M_ID,
+    T1.SOURCE_ORDER_ID                                            AS SOURCE_ORDER_ID,
+    T1.SOURCE_PROD_TYPE_NAME                                      AS SOURCE_PROD_TYPE_NAME,
+    T3.OPTIONS_TEXT                                               AS OPERATE_TYPE,
+    T1.CRITICAL_FLAG                                              AS CRITICAL_FLAG,
+    T1.MSISDN                                                     AS MSISDN,
+    T1.CUST_NAME                                                  AS CUST_NAME,
+    T1.PARTENT_ORDER_ID                                           AS PARTENT_ORDER_ID,
+    T1.COUNTS                                                     AS COUNTS,
+    T1.CUST_SPECIFY_DATE                  						  AS CUST_SPECIFY_DATE,
+    T1.PROCESS_USER_ID                                            AS PROCESS_USER_ID,
+    T1.PROCESS_USER_NAME                                          AS PROCESS_USER_NAME,
+    T1.ORDER_TYPE_ID                                              AS ORDER_TYPE_ID,
+    T1.ORDER_TYPE_NAME                                            AS ORDER_TYPE_NAME,
+    T1.FLOW_ID                                                    AS FLOW_ID,
+    T2.STATUS_NAME                                                AS ORDER_STATUS,
+    T1.OSP_CREATE_TIME                                            AS OSP_CREATE_TIME,
+    T1.EXPECT_PROCESS_TIME                                        AS EXPECT_PROCESS_TIME,
+    T1.EXPECT_COMPLETE_TIME                                       AS EXPECT_COMPLETE_TIME,
+    T4.OPTIONS_TEXT                                               AS SOURCE_SYS_ID,
+    (T1.EXPECT_COMPLETE_TIME - T5.OVERTIME / (24 * 60)) - SYSDATE AS OVERDUE_TIME,
+    CASE
+        WHEN (T1.EXPECT_COMPLETE_TIME - T5.OVERTIME / (24 * 60)) - SYSDATE < 0
+        THEN 'Y'
+        ELSE 'N'
+    END            AS OVERDUE_FLAG,
+    T2.LIGHT_COLOR AS LIGHT_COLOR
+FROM
+    ORDER_MAIN_OSP T1
+JOIN
+    SYS_ORDER_STATUS_SETTING T2
+ON
+    T1.ORDER_STATUS = T2.STATUS_ID
+LEFT JOIN
+    SYS_OPTIONS_REFERENCE T3
+ON
+    T1.OPERATE_TYPE = T3.OPTIONS_VALUE
+LEFT JOIN
+    SYS_OPTIONS_REFERENCE T4
+ON
+    T1.SOURCE_SYS_ID = T4.OPTIONS_VALUE
+LEFT JOIN
+    SYS_ORDER_TYPE_SETTING T5
+ON
+    T1.ORDER_TYPE_ID = T5.ORDER_TYPE_ID
+WHERE
+    ( 1 = 1 ) AND  T1.PROCESS_USER_ID = :T1.PROCESS_USER_ID AND  T1.ORDER_STATUS IN (  '010',  '020', '030',  '040',  '050', '060' )
+ORDER BY
+    T1.EXPECT_COMPLETE_TIME
+2017-06-02 16:22:15.421 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [getParams] :  SQL params = {"T1.PROCESS_USER_ID":"65196"}
+2017-06-02 16:22:16.883 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [getCompleteSQL] :  completeSQL = SELECT
+    COUNT(*) AS COUNT
+FROM
+    ORDER_MAIN_OSP
+WHERE
+    ( 1 = 1 ) AND  PROCESS_USER_ID = :PROCESS_USER_ID AND  ORDER_STATUS IN (  '010',  '020', '030',  '040',  '050', '060' )
+AND CRITICAL_FLAG = 'Y'
+2017-06-02 16:22:16.884 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [getParams] :  SQL params = {"PROCESS_USER_ID":"65196"}
+2017-06-02 16:22:17.561 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [getCompleteSQL] :  completeSQL = SELECT
+    COUNT(*) AS COUNT
+FROM
+    ORDER_MAIN_OSP T1
+LEFT JOIN
+    SYS_ORDER_TYPE_SETTING T2
+ON
+    T1.ORDER_TYPE_ID = T2.ORDER_TYPE_ID
+WHERE
+    ( 1 = 1 ) AND  T1.PROCESS_USER_ID = :T1.PROCESS_USER_ID AND  T1.ORDER_STATUS IN (  '010',  '020', '030',  '040',  '050', '060' )
+AND (
+        T1.EXPECT_COMPLETE_TIME - T2.OVERTIME / (24 * 60)) - SYSDATE < 0
+2017-06-02 16:22:17.562 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [getParams] :  SQL params = {"T1.PROCESS_USER_ID":"65196"}
+2017-06-02 16:22:18.200 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  OUTPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.getPersonalTodoOrderInfo
+2017-06-02 16:22:18.265 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.getNotifyOtherSalesOrderList
+2017-06-02 16:22:18.266 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [getCompleteSQL] :  completeSQL = SELECT DISTINCT
+    T1.ORDER_M_ID,
+    T1.OSP_CREATE_TIME,
+    T1.UPDATE_DATE,
+    T1.MSISDN,
+    T2.STATUS_NAME,
+    T3.REASON_TEXT,
+    T1.COMMMENT
+FROM
+    ORDER_MAIN_OSP T1
+LEFT JOIN
+    SYS_ORDER_STATUS_SETTING T2
+ON
+    T1.ORDER_STATUS=T2.STATUS_ID
+LEFT JOIN
+    SYS_REASON T3
+ON
+    T1.PROCESS_REASON = T3.REASON_ID
+WHERE
+    ( 1 = 1 ) AND  T1.MSISDN = :T1.MSISDN AND  T1.ORDER_TYPE_ID = :T1.ORDER_TYPE_ID AND  T1.PROCESS_USER_ID = :T1.PROCESS_USER_ID AND  T1.ORDER_STATUS IN (  '070',  '080' ) AND  ORDER_M_ID NOT IN(SELECT T4.ORDER_M_ID FROM NOTIFY_DETAIL T4 LEFT JOIN NOTIFY_MAIN T5 ON T4.NOTIFY_MAIN_ID = T5.NOTIFY_MAIN_ID WHERE T5.NOTIFY_FUNC= '1')
+ORDER BY
+    T1.OSP_CREATE_TIME
+2017-06-02 16:22:18.266 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [getParams] :  SQL params = {"T1.ORDER_TYPE_ID":"OSPL4003","T1.MSISDN":"0911123456","T1.PROCESS_USER_ID":"65196"}
+2017-06-02 16:22:18.890 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  OUTPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.getNotifyOtherSalesOrderList
+2017-06-02 16:22:18.964 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.batchCreateOrder
+2017-06-02 16:23:54.605 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.batchCreateOrder
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"c1c5a9bb-a91b-44e3-a87e-adaff6b89b06","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:23:55.511","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":299}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"c1c5a9bb-a91b-44e3-a87e-adaff6b89b06","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:23:55.871","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":267}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"c1c5a9bb-a91b-44e3-a87e-adaff6b89b06","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:23:55.950","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":267}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"c1c5a9bb-a91b-44e3-a87e-adaff6b89b06","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:23:56.30","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":267}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"c1c5a9bb-a91b-44e3-a87e-adaff6b89b06","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:23:56.111","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":262}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"c1c5a9bb-a91b-44e3-a87e-adaff6b89b06","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:23:56.191","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":262}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"c1c5a9bb-a91b-44e3-a87e-adaff6b89b06","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:23:56.271","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":262}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"c1c5a9bb-a91b-44e3-a87e-adaff6b89b06","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:23:56.350","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":262}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"c1c5a9bb-a91b-44e3-a87e-adaff6b89b06","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:23:56.431","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":262}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"c1c5a9bb-a91b-44e3-a87e-adaff6b89b06","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:23:56.511","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":257}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+2017-06-02 16:23:56.527 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  OUTPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.batchCreateOrder
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"c1c5a9bb-a91b-44e3-a87e-adaff6b89b06","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:23:56.552","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":257}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"c1c5a9bb-a91b-44e3-a87e-adaff6b89b06","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:23:56.569","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":257}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"c1c5a9bb-a91b-44e3-a87e-adaff6b89b06","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:23:56.590","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":252}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"c1c5a9bb-a91b-44e3-a87e-adaff6b89b06","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:23:56.604","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":252}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"c1c5a9bb-a91b-44e3-a87e-adaff6b89b06","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:23:56.626","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":252}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"c1c5a9bb-a91b-44e3-a87e-adaff6b89b06","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:23:56.649","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":252}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"c1c5a9bb-a91b-44e3-a87e-adaff6b89b06","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:23:56.715","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":247}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"c1c5a9bb-a91b-44e3-a87e-adaff6b89b06","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:23:56.730","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":247}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"c1c5a9bb-a91b-44e3-a87e-adaff6b89b06","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:23:56.746","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":246}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"c1c5a9bb-a91b-44e3-a87e-adaff6b89b06","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-06-02 16:23:56.765","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":246}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"ADD_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}

@@ -1,0 +1,28 @@
+INSERT
+INTO
+    SYS_SHIFT_CONTENT
+    (
+        WORK_DATE,
+        DT_YEAR,
+        DT_MONTH,
+        DT_DAY,
+        SHIFT_TYPE_ID,
+        EMPNO,
+        EMPNAME,
+        NT_ACCOUNT,
+        CREATE_USER,
+        CREATE_DATE
+    )
+    VALUES
+    (
+        :WORK_DATE,
+        :DT_YEAR,
+        :DT_MONTH,
+        :DT_DAY,
+        :SHIFT_TYPE_ID,
+        :EMPNO,
+        :EMPNAME,
+        :NT_ACCOUNT,
+        :CREATE_USER,
+        :CREATE_DATE
+    )

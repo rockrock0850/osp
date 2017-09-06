@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:task="http://www.springframework.org/schema/task" 
+	   xsi:schemaLocation="
+			http://www.springframework.org/schema/beans
+			http://www.springframework.org/schema/beans/spring-beans.xsd
+			http://www.springframework.org/schema/task
+			http://www.springframework.org/schema/task/spring-task-4.0.xsd">
+	
+	<!-- Thread Pool Configure -->
+	<bean id="taskExecutor"
+		  class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+		<property name="corePoolSize" value="200" />
+		<property name="maxPoolSize" value="500" />
+		<property name="waitForTasksToCompleteOnShutdown" value="true" />
+	</bean>
+	
+	<!-- TaskScheduler -->
+	<bean id="taskScheduler" class="org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler">
+		<property name="poolSize" value="100" />
+		<property name="waitForTasksToCompleteOnShutdown" value="true" />
+		<property name="removeOnCancelPolicy" value="true" />
+	</bean>
+	
+</beans>

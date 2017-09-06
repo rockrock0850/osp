@@ -1,0 +1,88 @@
+2017-05-12 12:19:35.429 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.getNotifyOtherSalesOrderList
+2017-05-12 12:19:35.538 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [getCompleteSQL] :  completeSQL = SELECT DISTINCT
+    T1.ORDER_M_ID      AS ORDER_M_ID ,
+    T1.ORDER_TYPE_ID   AS ORDER_TYPE_ID,
+    T1.ORDER_TYPE_NAME AS ORDER_TYPE_NAME,
+    T1.OSP_CREATE_TIME AS OSP_CREATE_TIME,
+    T1.MSISDN          AS MSISDN,
+    T1.ORDER_STATUS    AS ORDER_STATUS,
+    T1.PROCESS_REASON  AS PROCESS_REASON,
+    T1.COMMMENT        AS COMMMENT,
+    T1.UPDATE_DATE     AS UPDATE_DATE,
+    T5.STATUS_NAME     AS ORDER_STATUS_TEXT,
+    T6.REASON_TEXT     AS PROCESS_REASON_TEXT
+FROM
+    ORDER_MAIN_OSP T1
+LEFT JOIN
+    (
+        SELECT
+            T2.ORDER_M_ID
+        FROM
+            NOTIFY_DETAIL T2
+        LEFT JOIN
+            NOTIFY_MAIN T3
+        ON
+            T2.NOTIFY_MAIN_ID = T3.NOTIFY_MAIN_ID
+            --LEFT JOIN SYS_ORDER_STATUS_SETTING T5 ON T1.ORDER_STATUS = T5.STATUS_ID
+        WHERE
+            T3.NOTIFY_FUNC <>'1') T4
+ON
+    T1.ORDER_M_ID = T4.ORDER_M_ID
+LEFT JOIN
+    SYS_ORDER_STATUS_SETTING T5
+ON
+    T1.ORDER_STATUS=T5.STATUS_ID
+LEFT JOIN
+    SYS_REASON T6
+ON
+    T1.PROCESS_REASON = T6.REASON_ID
+WHERE
+    ( 1 = 1 ) AND  T1.MSISDN = :T1.MSISDN AND  T1.ORDER_TYPE_ID = :T1.ORDER_TYPE_ID AND  T1.PROCESS_USER_ID = :T1.PROCESS_USER_ID AND  T1.ORDER_STATUS IN (  '070',  '080' ) AND  TO_CHAR(T1.UPDATE_DATE,'YYYY/MM/DD') = TO_CHAR(SYSDATE,'YYYY/MM/DD')
+ORDER BY 
+    T1.OSP_CREATE_TIME   
+2017-05-12 12:19:35.665 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [getParams] :  SQL params = {"T1.ORDER_TYPE_ID":"OSPL4003","T1.MSISDN":"0911123456","T1.PROCESS_USER_ID":"65196"}
+2017-05-12 12:19:48.977 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  OUTPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.getNotifyOtherSalesOrderList
+2017-05-12 12:28:05.367 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.getNotifyOtherSalesOrderList
+2017-05-12 12:28:05.419 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [getCompleteSQL] :  completeSQL = SELECT DISTINCT
+    T1.ORDER_M_ID      AS ORDER_M_ID ,
+    T1.ORDER_TYPE_ID   AS ORDER_TYPE_ID,
+    T1.ORDER_TYPE_NAME AS ORDER_TYPE_NAME,
+    T1.OSP_CREATE_TIME AS OSP_CREATE_TIME,
+    T1.MSISDN          AS MSISDN,
+    T1.ORDER_STATUS    AS ORDER_STATUS,
+    T1.PROCESS_REASON  AS PROCESS_REASON,
+    T1.COMMMENT        AS COMMMENT,
+    T1.UPDATE_DATE     AS UPDATE_DATE,
+    T5.STATUS_NAME     AS ORDER_STATUS_TEXT,
+    T6.REASON_TEXT     AS PROCESS_REASON_TEXT
+FROM
+    ORDER_MAIN_OSP T1
+LEFT JOIN
+    (
+        SELECT
+            T2.ORDER_M_ID
+        FROM
+            NOTIFY_DETAIL T2
+        LEFT JOIN
+            NOTIFY_MAIN T3
+        ON
+            T2.NOTIFY_MAIN_ID = T3.NOTIFY_MAIN_ID
+            --LEFT JOIN SYS_ORDER_STATUS_SETTING T5 ON T1.ORDER_STATUS = T5.STATUS_ID
+        WHERE
+            T3.NOTIFY_FUNC <>'1') T4
+ON
+    T1.ORDER_M_ID = T4.ORDER_M_ID
+LEFT JOIN
+    SYS_ORDER_STATUS_SETTING T5
+ON
+    T1.ORDER_STATUS=T5.STATUS_ID
+LEFT JOIN
+    SYS_REASON T6
+ON
+    T1.PROCESS_REASON = T6.REASON_ID
+WHERE
+    ( 1 = 1 ) AND  T1.MSISDN = :T1.MSISDN AND  T1.ORDER_TYPE_ID = :T1.ORDER_TYPE_ID AND  T1.PROCESS_USER_ID = :T1.PROCESS_USER_ID AND  T1.ORDER_STATUS IN (  '070',  '080' ) AND  TO_CHAR(T1.UPDATE_DATE,'YYYY/MM/DD') = TO_CHAR(SYSDATE,'YYYY/MM/DD')
+ORDER BY 
+    T1.OSP_CREATE_TIME   
+2017-05-12 12:28:05.526 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [getParams] :  SQL params = {"T1.ORDER_TYPE_ID":"OSPL4003","T1.MSISDN":"0911123456","T1.PROCESS_USER_ID":"65196"}
+2017-05-12 12:28:25.530 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  OUTPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.getNotifyOtherSalesOrderList

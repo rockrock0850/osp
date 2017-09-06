@@ -1,0 +1,64 @@
+/* === ie8 modes === */
+.visible-ie8 {
+	display: inherit !important;
+}
+.hidden-ie8 {
+	display: none !important;
+}
+/* ie 8 fixes
+================================================== */
+.knobify {
+	display: none;
+}
+.circle-stat .details .title {
+	margin-top: 5px !important;
+}
+.circle-stat .details {
+	padding-top: 0px !important;
+	margin-bottom: 5px !important;
+}
+.icon-btn:hover {
+	filter: none !important;
+}
+.breadcrumb > li {
+	display: inline;
+ *display: inline;
+}
+.btn-group.btn-inline {
+	display: inline;
+}
+#header .navbar-nav > li.dropdown .dropdown-toggle {
+	padding-top: 11px !important;
+	padding-bottom: 10px !important;
+	line-height: 1em;
+}
+#header .navbar-nav li.dropdown.user .dropdown-toggle{
+	padding-top: 12px  !important;
+	padding-bottom: 12px !important;
+}
+.page-content .navbar-nav > li > a {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 40px;
+}
+.navbar-form {
+	padding: 7px 0 0 0;
+}
+.modal-small {
+	width: 400px !important;
+}
+.modal-wide {
+	width: 60% !important;
+}
+.modal-full {
+	width: 100% !important;
+}
+@media (max-width:991px) {
+.modal-small, .modal-wide, .modal-full{
+	width: auto!important;
+	margin: 10px auto 0!important;
+}
+.modal-full {
+	margin: 0;
+}
+}

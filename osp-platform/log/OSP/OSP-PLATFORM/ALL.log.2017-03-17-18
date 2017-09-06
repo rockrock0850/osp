@@ -1,0 +1,36 @@
+2017-03-17 18:04:20.817 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [getCompleteSQL] :  completeSQL = SELECT
+        ROLE_ID     AS ROLE_ID,
+        ROLE_NAME   AS ROLE_NAME,
+        EMPNO       AS EMPNO,
+        EMPNAME     AS EMPNAME,
+        DEPTCODE    AS DEPTCODE,
+        DEPTCHINAME AS DEPTCHINAME
+FROM
+        SYS_ROLE_MANUAL_MAPPING
+WHERE
+    ( 1 = 1 ) AND  ROLE_ID = :ROLE_ID
+2017-03-17 18:04:20.983 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [getParams] :  SQL params = {"ROLE_ID":"10001"}
+2017-03-17 18:04:55.874 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [getCompleteSQL] :  completeSQL = SELECT
+        ROLE_ID     AS ROLE_ID,
+        ROLE_NAME   AS ROLE_NAME,
+        EMPNO       AS EMPNO,
+        EMPNAME     AS EMPNAME,
+        DEPTCODE    AS DEPTCODE,
+        DEPTCHINAME AS DEPTCHINAME
+FROM
+        SYS_ROLE_MANUAL_MAPPING
+WHERE
+    ( 1 = 1 ) AND  ROLE_ID = :ROLE_ID
+2017-03-17 18:04:55.924 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [getParams] :  SQL params = {"ROLE_ID":"65533"}
+2017-03-17 18:05:26.056 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [getCompleteSQL] :  completeSQL = SELECT
+        ROLE_ID     AS ROLE_ID,
+        ROLE_NAME   AS ROLE_NAME,
+        EMPNO       AS EMPNO,
+        EMPNAME     AS EMPNAME,
+        DEPTCODE    AS DEPTCODE,
+        DEPTCHINAME AS DEPTCHINAME
+FROM
+        SYS_ROLE_MANUAL_MAPPING
+WHERE
+    ( 1 = 1 ) AND  ROLE_ID = :ROLE_ID
+2017-03-17 18:05:26.151 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [getParams] :  SQL params = {"ROLE_ID":"002"}

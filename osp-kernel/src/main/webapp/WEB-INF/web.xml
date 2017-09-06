@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+
+    <display-name>osp-kernel</display-name>
+
+	<!-- 
+	fet-web-spring(JAR檔案)的 Web Fragment裡面就已經幫我們指定 Spring的 contextConfigLocation Context參數 與 ContextLoaderListener了 
+	-->
+    <!-- 
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/classes/applicationContext.xml</param-value>
+    </context-param>
+    
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    -->
+
+    <filter>
+		<filter-name>encodingFilter</filter-name>
+		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+		<init-param>
+			<param-name>forceEncoding</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>encodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<!-- CRM Framework 底層的 FetLogger 相關 (當 env.properties 的 LOG_FORMAT=JSON 才需要開啟!!): 預設關閉 -->
+	<!--  
+    <filter>
+		<display-name>MDCFilter</display-name>
+		<filter-name>MDCFilter</filter-name>
+		<filter-class>com.fet.generic.logger.web.MDCFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>MDCFilter</filter-name>
+		<url-pattern>*.action</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>MDCFilter</filter-name>
+		<url-pattern>/services/*</url-pattern>
+	</filter-mapping>
+	-->
+    
+    <!-- Restful Service -->
+    <servlet>
+        <servlet-name>spring-mvc-rest</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>/WEB-INF/classes/applicationContext.xml</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>spring-mvc-rest</servlet-name>
+        <url-pattern>/rest/*</url-pattern>
+    </servlet-mapping>
+	
+	<!-- SOAP WebService -->
+	<servlet>
+		<servlet-name>TicketPoolMainService</servlet-name>
+		<servlet-class>
+			com.fet.crm.osp.kernel.mware.server.wrapper.soap.TicketPoolMainSOAPWS
+		</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TicketPoolMainService</servlet-name>
+		<url-pattern>/soap/TicketPoolMainService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>OSPPoolMainService</servlet-name>
+		<servlet-class>
+			com.fet.crm.osp.kernel.mware.server.wrapper.soap.OSPPoolMainSOAPWS
+		</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OSPPoolMainService</servlet-name>
+		<url-pattern>/soap/OSPPoolMainService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>OSPToolMainService</servlet-name>
+		<servlet-class>
+			com.fet.crm.osp.kernel.mware.server.wrapper.soap.OSPToolMainSOAPWS
+		</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OSPToolMainService</servlet-name>
+		<url-pattern>/soap/OSPToolMainService</url-pattern>
+	</servlet-mapping>
+
+    <!-- session timeout -->
+    <session-config>
+        <session-timeout>1800</session-timeout>
+    </session-config>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+    <error-page>
+        <exception-type>java.lang.Exception</exception-type>
+        <location>/error.jsp</location>
+    </error-page>
+
+</web-app>

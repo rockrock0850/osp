@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<parent>
+		<groupId>com.fet.crm.osp</groupId>
+		<artifactId>osp</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>osp-common</artifactId>
+	<modelVersion>4.0.0</modelVersion>
+
+	<build>
+		<finalName>
+			<!-- 取Project name做為產出的名稱 -->
+			${project.artifactId}
+		</finalName>
+
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>${jdk.version}</source>
+					<target>${jdk.version}</target>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.16</version>
+				<configuration>
+					<skipTests>${skipTests}</skipTests>
+				</configuration>
+			</plugin>
+
+			<!-- http://stackoverflow.com/questions/33530105/failonmissingwebxml-error-when-validating-pom-xml-in-eclipse -->
+			<plugin>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+				</configuration>
+			</plugin>
+
+			<!-- http://maven.apache.org/plugins/maven-javadoc-plugin/javadoc-mojo.html -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>2.9.1</version>
+				<configuration>
+					<encoding>UTF-8</encoding>
+					<outputEncoding>UTF-8</outputEncoding>
+					<bottom>
+						<![CDATA[
+						<!-- Copyright -->
+						Copyright &copy; 2016 Far Eastone Telecommunications Co., Ltd. <br/>
+						All Rights Reserved.
+						]]>
+					</bottom>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

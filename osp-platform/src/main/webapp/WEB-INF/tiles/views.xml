@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	
+	<!-- 錯誤畫面 -->
+	<definition name="tiles.error.index" extends="threeColumnsTheme">
+		<put-attribute name="content" value="/WEB-INF/views/osp/jsp/common/error/error.jsp" />
+	</definition>
+	
+	<!-- 初始	-->
+	<definition name="tiles.session.login" extends="twoColumnsTheme">
+		<put-attribute name="title" value="OSP-登入畫面" />
+		<put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/session/service-login.jsp" />
+	</definition>
+
+	<definition name="tiles.console.index" extends="threeColumnsTheme">
+		<put-attribute name="content" value="/WEB-INF/views/osp/jsp/console.jsp" />
+	</definition>
+
+	<!-- 回傳Json字串載入頁面 -->
+	<definition name="tiles.data.json" template="/WEB-INF/views/osp/jsp/common/component/result/json-result.jsp"></definition>
+	
+	<!-- 回傳Json字串載入頁面 -->
+	<definition name="tiles.view.apppart"  extends="twoColumnsTheme">
+		<put-attribute name="content" value="/WEB-INF/views/osp/jsp/common/component/result/app-part-result.jsp" />
+	</definition>
+	
+	<!-- 下拉選單模板頁面 -->
+	<definition name="tiles.option.selection" template="/WEB-INF/views/osp/jsp/common/component/html/selection.jsp"></definition>
+	
+	<!-- BEGIN LEVEL 2 -->
+	
+	<!-- 我的待處理 -->
+    <definition name="tiles.function.ospLv2001" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/todo/personal/personal-todo.jsp" />
+    </definition>
+
+    <!-- 部門待處理 -->
+    <definition name="tiles.function.ospLv2002" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/todo/dept/dept-todo.jsp" />
+    </definition>
+    
+    <!-- 案件狀態查詢 -->
+    <definition name="tiles.function.ospLv2004" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/setting/order/service-query-order-status.jsp" />
+    </definition>
+    
+    <!-- 個人產能狀況查詢 -->
+    <definition name="tiles.function.ospLv2005" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/inquiry/service-personal-capacity-inquiry.jsp" />
+    </definition>
+    
+    <!-- 案件指派維護作業 -->
+    <definition name="tiles.function.ospLv2006" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/setting/assign/service-order-assign.jsp" />
+    </definition>
+    
+    <!-- 暫停人員分配 -->
+    <definition name="tiles.function.ospLv2007" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/setting/dispatch/order-dispatch-maintain.jsp" />
+    </definition>
+    
+    <!-- 班表匯入作業 -->
+    <definition name="tiles.function.ospLv2008" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/setting/shift/service-shift-content.jsp" />
+    </definition>
+    
+    <!-- 班別維護作業 -->
+    <definition name="tiles.function.ospLv2009" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/setting/shift/service-shift-type.jsp" />
+    </definition>
+    
+    <!-- 人員skill貼標維護作業-->
+    <definition name="tiles.function.ospLv2010" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/setting/skill/skill-maintain.jsp" />
+    </definition>
+    
+    <!-- 案件類別維護作業 -->
+    <definition name="tiles.function.ospLv2011" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/setting/order/order-type-maintain.jsp" />
+    </definition>
+    
+    <!-- 角色權限維護作業 -->
+    <definition name="tiles.function.ospLv2012" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/setting/role/role-maintain.jsp" />
+    </definition>
+    
+	<!-- END LEVEL 2 -->
+	
+	<!-- BEGIN LEVEL 4 -->
+	
+	<!-- 月租啟用 -->
+	<definition name="tiles.function.ospLv4001" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-postpaid-nn.jsp" />
+    </definition>
+    
+	<!-- 月租攜碼 -->
+	<definition name="tiles.function.ospLv4002" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-postpaid-np.jsp" />
+    </definition>
+    
+	<!-- 統一轉遠傳月租 -->
+	<definition name="tiles.function.ospLv4003" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-king-to-fet-post.jsp" />
+    </definition>
+    
+	<!-- 統一轉遠傳預付 -->
+	<definition name="tiles.function.ospLv4004" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-king-to-fet-pre.jsp" />
+    </definition>
+    
+	<!-- 內轉月租-->
+	<definition name="tiles.function.ospLv4005" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-internal-np-post.jsp" />
+    </definition>
+    
+	<!-- 內轉預付 -->
+	<definition name="tiles.function.ospLv4006" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-internal-np-pre.jsp" />
+    </definition>
+    
+	<!-- 永停復機 -->
+	<definition name="tiles.function.ospLv4007" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-p26-activation.jsp" />
+    </definition>
+    
+	<!-- 變更結帳日 -->
+	<definition name="tiles.function.ospLv4008" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-change-cycle-date.jsp" />
+    </definition>
+    
+	<!-- 門號保留合約遞延90天 -->
+	<definition name="tiles.function.ospLv4009" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-contract-postpone.jsp" />
+    </definition>
+    
+	<!-- 提前解約修正合約日期 -->
+	<definition name="tiles.function.ospLv4010" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-change-contact-date.jsp" />
+    </definition>
+    
+	<!-- 折扣安裝(future task安裝) -->
+	<definition name="tiles.function.ospLv4011" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-add-future-task.jsp" />
+    </definition>
+    
+	<!-- 學生溫暖 -->
+	<definition name="tiles.function.ospLv4012" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-special-offer.jsp" />
+    </definition>
+    
+	<!-- 特授月租啟用-->
+	<definition name="tiles.function.ospLv4013" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-special-post-paid-nn.jsp" />
+    </definition>
+    
+	<!-- 特授月租攜碼 -->
+	<definition name="tiles.function.ospLv4014" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-special-post-paid-np.jsp" />
+    </definition>
+    
+	<!-- 月租續約 -->
+	<definition name="tiles.function.ospLv4015" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-loyalty.jsp" />
+    </definition>
+    
+	<!-- 月租續約(純附約)  -->
+	<definition name="tiles.function.ospLv4016" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-loyalty-vas.jsp" />
+    </definition>
+    
+	<!-- 降轉啟用(4轉3)含加回原3G折扣 -->
+	<definition name="tiles.function.ospLv4017" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-4g-to-3g.jsp" />
+    </definition>
+    
+	<!-- 一退一租 -->
+	<definition name="tiles.function.ospLv4018" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-market-move.jsp" />
+    </definition>
+    
+	<!-- 特殊退租 -->
+	<definition name="tiles.function.ospLv4019" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-suspend.jsp" />
+    </definition>
+    
+	<!-- 變更促代 -->
+	<definition name="tiles.function.ospLv4020" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-change-promotion.jsp" />
+    </definition>
+    
+	<!-- 預付啟用 -->
+	<definition name="tiles.function.ospLv4021" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-prepaid-nn-activation.jsp" />
+    </definition>
+    
+	<!-- 預付攜碼  -->
+	<definition name="tiles.function.ospLv4022" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-prepaid-np-activation.jsp" />
+    </definition>
+    
+	<!-- 預付轉讓-->
+	<definition name="tiles.function.ospLv4023" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-prepaid-transfer-activation.jsp" />
+    </definition>
+    
+	<!-- 預付啟用OCW -->
+	<definition name="tiles.function.ospLv4024" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-prepaid-nn-ocw.jsp" />
+    </definition>
+    
+	<!-- 大量開卡 -->
+	<definition name="tiles.function.ospLv4025" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-prepaid-mass.jsp" />
+    </definition>
+    
+	<!-- 移入協商  -->
+	<definition name="tiles.function.ospLv4026" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-port-in.jsp" />
+    </definition>
+    
+	<!-- 移出作業(特授移出/移出協商) -->
+	<definition name="tiles.function.ospLv4027" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-port-out-assist.jsp" />
+    </definition>
+    
+	<!-- 移出作業(特授移出/移出批核)-->
+	<definition name="tiles.function.ospLv4028" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-port-out-approve.jsp" />
+    </definition>
+    
+	<!-- E-月租啟用 -->
+	<definition name="tiles.function.ospLv4029" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-postpaid-nn.jsp" />
+    </definition>
+    
+	<!-- E-月租攜碼 -->
+	<definition name="tiles.function.ospLv4030" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-postpaid-np.jsp" />
+    </definition>
+    
+	<!-- E-批次啟用 -->
+	<definition name="tiles.function.ospLv4031" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-batch-nn.jsp" />
+    </definition>
+    
+	<!-- E-批次攜碼 -->
+	<definition name="tiles.function.ospLv4032" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-batch-np.jsp" />
+    </definition>
+    
+	<!-- E-內轉月租 -->
+	<definition name="tiles.function.ospLv4033" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-internal-np-post.jsp" />
+    </definition>
+    
+	<!-- E-月租續約 -->
+	<definition name="tiles.function.ospLv4034" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-loyalty.jsp" />
+    </definition>
+    
+	<!-- E-月租續約(純附約) -->
+	<definition name="tiles.function.ospLv4035" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-loyalty-vas.jsp" />
+    </definition>
+    
+	<!-- E-變更促代 -->
+	<definition name="tiles.function.ospLv4036" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-change-promotion.jsp" />
+    </definition>
+    
+	<!-- E-一退一租 -->
+	<definition name="tiles.function.ospLv4037" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-market-move.jsp" />
+    </definition>
+    
+	<!-- E-公私分帳(異動) -->
+	<definition name="tiles.function.ospLv4038" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-m34.jsp" />
+    </definition>
+    
+	<!-- E-MVPN(新增/異動)  -->
+	<definition name="tiles.function.ospLv4039" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-mvpn.jsp" />
+    </definition>
+    
+	<!-- E-服務異動 -->
+	<definition name="tiles.function.ospLv4040" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-service-change.jsp" />
+    </definition>
+    
+	<!-- E-停機-->
+	<definition name="tiles.function.ospLv4041" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-suspend.jsp" />
+    </definition>
+    
+	<!-- E-變更結帳日 -->
+	<definition name="tiles.function.ospLv4042" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-change-cycle-date.jsp" />
+    </definition>
+    
+	<!-- E-批次異動(CM 批次異動) -->
+	<definition name="tiles.function.ospLv4043" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-cm-batch.jsp" />
+    </definition>
+    
+	<!-- E-批次異動(Y槽) -->
+	<definition name="tiles.function.ospLv4044" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-batch-y.jsp" />
+    </definition>
+    
+	<!-- E-批次異動(MVPN) -->
+	<definition name="tiles.function.ospLv4045" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-batch-mvpn.jsp" />
+    </definition>
+    
+	<!-- E-批次續約 -->
+	<definition name="tiles.function.ospLv4046" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-batch-loyalty.jsp" />
+    </definition>
+    
+	<!-- E-批次內轉啟用 -->
+	<definition name="tiles.function.ospLv4047" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-batch-internal-np-post.jsp" />
+    </definition>
+    
+	<!-- E-其他作業 -->
+	<definition name="tiles.function.ospLv4048" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-others.jsp" />
+    </definition>
+    
+	<!-- 異動工單 -->
+	<definition name="tiles.function.ospLv4049" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-change-tt.jsp" />
+    </definition>
+    
+	<!-- 啟用工單 -->
+	<definition name="tiles.function.ospLv4050" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-activation-tt.jsp" />
+    </definition>
+    
+	<!-- E-工單  -->
+	<definition name="tiles.function.ospLv4051" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-tt.jsp" />
+    </definition>
+    
+	<!-- E-協派單 -->
+	<definition name="tiles.function.ospLv4052" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-support-tt.jsp" />
+    </definition>
+    
+	<!-- E-VPOS核帳 -->
+	<definition name="tiles.function.ospLv4053" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-ebu-vpos.jsp" />
+    </definition>
+    
+	<!-- Fail Log處理 -->
+	<definition name="tiles.function.ospLv4054" extends="oneColumnTheme">
+        <put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/service-fail-log.jsp" />
+    </definition>
+
+	<!-- END LEVEL 4 -->
+	
+	<!-- 流程首頁 -->
+	<definition name="tiles.work.flow" extends="threeColumnsTheme">
+		<put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/work-flow/流程首頁.jsp" />
+	</definition>
+	<definition name="tiles.building.file" extends="threeColumnsTheme">
+		<put-attribute name="content" value="/WEB-INF/views/osp/jsp/function/work-flow/buildingFile/建檔.jsp" />
+	</definition>
+	
+	<!-- 取得SPV Order Detail 資料頁面 -->
+	<definition name="tiles.window.SPV" template="/WEB-INF/views/osp/jsp/function/workshop/creation-group/mobile/component/window/get-order-detail-spv-by-fool-key-window.jsp"></definition>
+	
+</tiles-definitions>

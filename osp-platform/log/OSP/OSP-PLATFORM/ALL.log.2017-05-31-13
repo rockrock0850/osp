@@ -1,0 +1,391 @@
+2017-05-31 13:06:23.158 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.updateOrderMainInfo
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"2cecefaf-9a14-40fd-bc6a-2e05e5ffe0aa","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-05-31 13:06:44.619","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":112}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+2017-05-31 13:07:04.330 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  OUTPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.updateOrderMainInfo
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"2cecefaf-9a14-40fd-bc6a-2e05e5ffe0aa","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-05-31 13:07:04.409","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":78}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"MODIFY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+2017-05-31 13:10:51.428 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.updateOrderMainInfo
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"2d653360-8480-4bc9-b10b-f37418664f01","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-05-31 13:11:17.578","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":69}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"QUERY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+2017-05-31 13:11:50.787 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  OUTPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.updateOrderMainInfo
+{"ver":"1.0.6 20151216","lvl":"PDP","thid":"2d653360-8480-4bc9-b10b-f37418664f01","lur":{},"lap":{"clientapinfo":{},"serverapinfo":{"classnm":"com.fet.generic.aop.sql.HibernateUtil","methodnm":"submitLog"}},"lst":"2017-05-31 13:11:50.839","lpr":{"serverprinfo":{"serverip":"192.168.127.1","servernm":"Adam","freemem":271}},"msg":{"debuginfo":{},"requestinfo":{},"analysisinfo":{"eventinfo":"MODIFY_DATA","accessinfo":{"pdflag":"N"}},"errorinfo":{}}}
+2017-05-31 13:36:17.149 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.updateOrderStatus
+2017-05-31 13:36:17.370 ERROR [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [logMessge] : error
+com.fet.crm.osp.common.exception.db.DefaultDaoException: No value supplied for the SQL parameter 'PROCESS_USER_ID': No value registered for key 'PROCESS_USER_ID'
+	at com.fet.crm.osp.common.exception.ExceptionFactory.getException(ExceptionFactory.java:61) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.aspect.CoreThrowsAspect.around(CoreThrowsAspect.java:74) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade$$EnhancerBySpringCGLIB$$5ebae35c.updateOrderStatus(<generated>) [classes/:?]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacadeTest.testUpdateOrderStatus(OrderManageFacadeTest.java:57) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) [junit-4.11.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.11.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) [junit-4.11.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.11.jar:?]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:?]
+Caused by: org.springframework.dao.InvalidDataAccessApiUsageException: No value supplied for the SQL parameter 'PROCESS_USER_ID': No value registered for key 'PROCESS_USER_ID'
+	at org.springframework.jdbc.core.namedparam.NamedParameterUtils.buildValueArray(NamedParameterUtils.java:342) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.getPreparedStatementCreator(NamedParameterJdbcTemplate.java:348) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:287) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:292) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at com.fet.crm.osp.platform.core.db.jdbc.JdbcDAO.update(JdbcDAO.java:88) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.service.orderinfo.impl.OrderManageServiceImpl.updateOrderStatus(OrderManageServiceImpl.java:531) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.updateOrderStatus(OrderManageFacade.java:248) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade$$FastClassBySpringCGLIB$$719c5953.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:85) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at com.fet.crm.osp.platform.core.aspect.CoreThrowsAspect.around(CoreThrowsAspect.java:64) [classes/:?]
+	... 44 more
+2017-05-31 13:36:17.420 ERROR [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [logMessge] :  class name = com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade ; methodNm = updateOrderStatus
+2017-05-31 13:38:06.531 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.updateOrderStatus
+2017-05-31 13:38:08.384 ERROR [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [logMessge] : error
+com.fet.crm.osp.common.exception.db.DefaultDaoException: PreparedStatementCallback; bad SQL grammar [MERGE
+INTO
+    ORDER_MAIN_OSP T1
+USING
+    (
+        SELECT
+            1
+        FROM
+            dual) T2
+ON
+    (
+        T1.PROCESS_USER_ID = NULL
+    AND T1.PROCESS_USER_NAME = NULL)
+WHEN MATCHED
+    THEN
+UPDATE
+SET
+    T1.PROCESS_USER_ID = ?,
+    T1.PROCESS_USER_NAME = ?,
+    T1.ORDER_STATUS = ?,
+    T1.UPDATE_USER = ?,
+    T1.UPDATE_DATE = ?
+WHEN NOT MATCHED
+    THEN
+UPDATE
+SET
+    T1.ORDER_STATUS = ?,
+    T1.UPDATE_USER = ?,
+    T1.UPDATE_DATE = ?]; nested exception is java.sql.SQLSyntaxErrorException: ORA-00905: missing keyword
+
+	at com.fet.crm.osp.common.exception.ExceptionFactory.getException(ExceptionFactory.java:61) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.aspect.CoreThrowsAspect.around(CoreThrowsAspect.java:74) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade$$EnhancerBySpringCGLIB$$b38ee116.updateOrderStatus(<generated>) [classes/:?]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacadeTest.testUpdateOrderStatus(OrderManageFacadeTest.java:57) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) [junit-4.11.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.11.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) [junit-4.11.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.11.jar:?]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:?]
+Caused by: org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [MERGE
+INTO
+    ORDER_MAIN_OSP T1
+USING
+    (
+        SELECT
+            1
+        FROM
+            dual) T2
+ON
+    (
+        T1.PROCESS_USER_ID = NULL
+    AND T1.PROCESS_USER_NAME = NULL)
+WHEN MATCHED
+    THEN
+UPDATE
+SET
+    T1.PROCESS_USER_ID = ?,
+    T1.PROCESS_USER_NAME = ?,
+    T1.ORDER_STATUS = ?,
+    T1.UPDATE_USER = ?,
+    T1.UPDATE_DATE = ?
+WHEN NOT MATCHED
+    THEN
+UPDATE
+SET
+    T1.ORDER_STATUS = ?,
+    T1.UPDATE_USER = ?,
+    T1.UPDATE_DATE = ?]; nested exception is java.sql.SQLSyntaxErrorException: ORA-00905: missing keyword
+
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:91) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:649) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:870) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:894) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:287) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:292) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at com.fet.crm.osp.platform.core.db.jdbc.JdbcDAO.update(JdbcDAO.java:88) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.service.orderinfo.impl.OrderManageServiceImpl.updateOrderStatus(OrderManageServiceImpl.java:535) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.updateOrderStatus(OrderManageFacade.java:248) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade$$FastClassBySpringCGLIB$$719c5953.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:85) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at com.fet.crm.osp.platform.core.aspect.CoreThrowsAspect.around(CoreThrowsAspect.java:64) [classes/:?]
+	... 44 more
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00905: missing keyword
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:447) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:951) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:513) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:531) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:208) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1046) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1336) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3613) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3694) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1354) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at org.springframework.jdbc.core.JdbcTemplate$2.doInPreparedStatement(JdbcTemplate.java:877) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate$2.doInPreparedStatement(JdbcTemplate.java:870) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:870) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:894) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:287) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:292) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at com.fet.crm.osp.platform.core.db.jdbc.JdbcDAO.update(JdbcDAO.java:88) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.service.orderinfo.impl.OrderManageServiceImpl.updateOrderStatus(OrderManageServiceImpl.java:535) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.updateOrderStatus(OrderManageFacade.java:248) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade$$FastClassBySpringCGLIB$$719c5953.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:85) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at com.fet.crm.osp.platform.core.aspect.CoreThrowsAspect.around(CoreThrowsAspect.java:64) ~[classes/:?]
+	... 44 more
+2017-05-31 13:38:08.395 ERROR [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [logMessge] :  class name = com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade ; methodNm = updateOrderStatus
+2017-05-31 13:40:35.911 INFO  [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [around] :  INPUT com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.updateOrderStatus
+2017-05-31 13:40:37.699 ERROR [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [logMessge] : error
+com.fet.crm.osp.common.exception.db.DefaultDaoException: PreparedStatementCallback; bad SQL grammar [MERGE
+INTO
+    ORDER_MAIN_OSP T1
+USING
+    (
+        SELECT
+            1
+        FROM
+            dual) T2
+ON
+    (
+        T1.ORDER_M_ID=?
+    AND T1.PROCESS_USER_ID = NULL
+    AND T1.PROCESS_USER_NAME = NULL)
+WHEN MATCHED
+    THEN
+UPDATE
+SET
+    T1.PROCESS_USER_ID = ?,
+    T1.PROCESS_USER_NAME = ?,
+    T1.ORDER_STATUS = ?,
+    T1.UPDATE_USER = ?,
+    T1.UPDATE_DATE = ?
+WHEN NOT MATCHED
+    THEN
+UPDATE
+SET
+    T1.ORDER_STATUS = ?,
+    T1.UPDATE_USER = ?,
+    T1.UPDATE_DATE = ?]; nested exception is java.sql.SQLSyntaxErrorException: ORA-00905: missing keyword
+
+	at com.fet.crm.osp.common.exception.ExceptionFactory.getException(ExceptionFactory.java:61) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.aspect.CoreThrowsAspect.around(CoreThrowsAspect.java:74) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656) [spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade$$EnhancerBySpringCGLIB$$de6e4b61.updateOrderStatus(<generated>) [classes/:?]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacadeTest.testUpdateOrderStatus(OrderManageFacadeTest.java:57) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) [junit-4.11.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.11.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) [junit-4.11.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.11.jar:?]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [junit-4.11.jar:?]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:?]
+Caused by: org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [MERGE
+INTO
+    ORDER_MAIN_OSP T1
+USING
+    (
+        SELECT
+            1
+        FROM
+            dual) T2
+ON
+    (
+        T1.ORDER_M_ID=?
+    AND T1.PROCESS_USER_ID = NULL
+    AND T1.PROCESS_USER_NAME = NULL)
+WHEN MATCHED
+    THEN
+UPDATE
+SET
+    T1.PROCESS_USER_ID = ?,
+    T1.PROCESS_USER_NAME = ?,
+    T1.ORDER_STATUS = ?,
+    T1.UPDATE_USER = ?,
+    T1.UPDATE_DATE = ?
+WHEN NOT MATCHED
+    THEN
+UPDATE
+SET
+    T1.ORDER_STATUS = ?,
+    T1.UPDATE_USER = ?,
+    T1.UPDATE_DATE = ?]; nested exception is java.sql.SQLSyntaxErrorException: ORA-00905: missing keyword
+
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:91) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:649) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:870) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:894) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:287) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:292) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at com.fet.crm.osp.platform.core.db.jdbc.JdbcDAO.update(JdbcDAO.java:88) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.service.orderinfo.impl.OrderManageServiceImpl.updateOrderStatus(OrderManageServiceImpl.java:535) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.updateOrderStatus(OrderManageFacade.java:248) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade$$FastClassBySpringCGLIB$$719c5953.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:85) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at com.fet.crm.osp.platform.core.aspect.CoreThrowsAspect.around(CoreThrowsAspect.java:64) [classes/:?]
+	... 44 more
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00905: missing keyword
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:447) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:951) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:513) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:531) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:208) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1046) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1336) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3613) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3694) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1354) ~[ojdbc6-11.2.0.4.0.jar:11.2.0.4.0]
+	at org.springframework.jdbc.core.JdbcTemplate$2.doInPreparedStatement(JdbcTemplate.java:877) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate$2.doInPreparedStatement(JdbcTemplate.java:870) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:870) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:894) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:287) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:292) ~[spring-jdbc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at com.fet.crm.osp.platform.core.db.jdbc.JdbcDAO.update(JdbcDAO.java:88) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.service.orderinfo.impl.OrderManageServiceImpl.updateOrderStatus(OrderManageServiceImpl.java:535) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade.updateOrderStatus(OrderManageFacade.java:248) ~[classes/:?]
+	at com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade$$FastClassBySpringCGLIB$$719c5953.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:85) ~[spring-aop-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at com.fet.crm.osp.platform.core.aspect.CoreThrowsAspect.around(CoreThrowsAspect.java:64) ~[classes/:?]
+	... 44 more
+2017-05-31 13:40:37.710 ERROR [com.fet.crm.osp.platform.core.logger.CoreLoggerFactory] [logMessge] :  class name = com.fet.crm.osp.platform.core.facade.orderinfo.OrderManageFacade ; methodNm = updateOrderStatus

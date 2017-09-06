@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx" 
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-4.0.xsd
+           http://www.springframework.org/schema/tx
+           http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
+        
+	<!-- init 属性配置 -->
+	<context:property-placeholder location="classpath*:kernel.properties" />
+
+	<!-- 使用 spring annotation -->
+	<context:component-scan base-package="com.fet.crm.osp.kernel" />
+	<context:component-scan base-package="com.fet.crm.osp.common" />
+	
+	<!-- JDBC and persistence -->
+	<import resource="classpath*:/spring-config/core/applicationContext-datasource-config.xml" />
+	<import resource="classpath*:/spring-config/core/applicationContext-jdbc-config.xml" />
+	<import resource="classpath*:/spring-config/core/applicationContext-persistence-config.xml" />
+	
+	<!-- thread pool -->
+    <import resource="classpath*:/spring-config/core/applicationContext-threadpool-config.xml" />
+	
+	<!-- SOAP 
+	<import resource="classpath*:META-INF/applicationContext-test-soap.xml" />
+	-->
+	<import resource="applicationContext-test-soap.xml" />
+	
+	<!-- AOP 
+	<import resource="classpath*:/spring-config/aop/applicationContext-aop-config.xml" />
+	-->
+
+</beans>

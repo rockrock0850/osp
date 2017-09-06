@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <Configuration xmlns="http://logging.apache.org/log4j/2.0/config" -->
+<!-- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" -->
+<!-- xsi:schemaLocation="http://logging.apache.org/log4j/2.0/config  -->
+<!-- Log4j-config.xsd"> -->
+
+<Configuration status="WARN">
+
+	<Properties>
+		<Property name="home">log/osp/osp-platform</Property>
+	</Properties>
+
+    <Appenders>
+        <Console name="stdout" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p [%c] [%M] : %m%n%d"/>
+        </Console>
+
+		<RollingFile name="coreAppender" fileName="${home}/core.log" filePattern="${home}/core.log.%d{yyyy-MM-dd-HH}" >
+			<PatternLayout>
+				<charset>UTF-8</charset>
+				<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p [%c] [%M] : %m%n</pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"/>
+			</Policies>
+		</RollingFile>
+		
+		<RollingFile name="webappAppender" fileName="${home}/webapp.log" filePattern="${home}/webapp.log.%d{yyyy-MM-dd-HH}" >
+			<PatternLayout>
+				<charset>UTF-8</charset>
+				<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p [%c] [%M] : %m%n</pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"/>
+			</Policies>
+		</RollingFile>
+		
+		<RollingFile name="mwareClientAppender" fileName="${home}/mware-client.log" filePattern="${home}/mware-client.log.%d{yyyy-MM-dd-HH}" >
+			<PatternLayout>
+				<charset>UTF-8</charset>
+				<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p [%c] [%M] : %m%n</pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"/>
+			</Policies>
+		</RollingFile>
+
+		<RollingFile name="sqlAppender" fileName="${home}/sql.log" filePattern="${home}/sql.log.%d{yyyy-MM-dd-HH}" >
+			<PatternLayout>
+				<pattern>%m%n</pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"/>
+			</Policies>
+		</RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="stdout"/>
+        </Root>
+
+        <AsyncLogger name="com.fet.crm.osp.platform.core" level="INFO" additivity="false">
+        	<AppenderRef ref="stdout"/>			
+           	<AppenderRef ref="coreAppender" level="INFO"/>     
+        </AsyncLogger>
+        
+        <AsyncLogger name="com.fet.crm.osp.platform.webapp" level="INFO" additivity="false">
+        	<AppenderRef ref="stdout"/>			
+           	<AppenderRef ref="webappAppender" level="INFO"/>     
+        </AsyncLogger>
+        
+        <AsyncLogger name="com.fet.crm.osp.platform.mware.client" level="INFO" additivity="false">
+        	<AppenderRef ref="stdout"/>			
+           	<AppenderRef ref="mwareClientAppender" level="INFO"/>             
+        </AsyncLogger>
+
+		<AsyncLogger name="com.fet.generic.aop.sql" level="INFO" additivity="false" includeLocation="true">
+<!-- 		LoggerConfig預設值為true; Log4jLogEvent預設值為flase -->
+<!-- 		        <Logger name="com.fet.generic.aop.sql" level="INFO" additivity="false" includeLocation="false"> -->
+           	<AppenderRef ref="sqlAppender" level="INFO"/>              
+        </AsyncLogger>
+
+		<!-- Hibernate 才需要使用的設定 -->
+		<!-- Paul 修正 -->
+		<AsyncLogger name="org.hibernate" level="OFF" />
+		<AsyncLogger name="org.springframework" level="OFF" />
+		<AsyncLogger name="org.apache.tiles" level="OFF" />
+    </Loggers>
+
+</Configuration>

@@ -10,6 +10,4 @@ src/.gitignore
 
 .classpath
 
-osp-platform/target/
-osp-kernel/target/
-osp-common/target/
+target
